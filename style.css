@@ -1,0 +1,60 @@
+body{
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+text-align:center;
+transition:1s;
+}
+
+.title{
+margin-top:50px;
+letter-spacing:4px;
+}
+
+.portal-container{
+display:flex;
+justify-content:center;
+gap:60px;
+margin-top:120px;
+flex-wrap:wrap;
+}
+
+.portal{
+width:150px;
+height:150px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+cursor:pointer;
+font-weight:bold;
+font-size:18px;
+transition:0.5s;
+}
+
+/* portals */
+
+.cosmic{
+background:radial-gradient(circle,#00e5ff,#001aff);
+box-shadow:0 0 40px #00e5ff;
+}
+
+.cyber{
+background:radial-gradient(circle,#ff00ff,#5500aa);
+box-shadow:0 0 40px #ff00ff;
+}
+
+.nature{
+background:radial-gradient(circle,#00ff88,#006622);
+box-shadow:0 0 40px #00ff88;
+}
+
+.abstract{
+background:radial-gradient(circle,#ffaa00,#ff2200);
+box-shadow:0 0 40px #ffaa00;
+}
+
+.portal:hover{
+transform:scale(1.2);
+}
